@@ -13,8 +13,6 @@ Create 4 files “work”, “dev”, “learn”, “prod” - touch work, dev,
 `touch antino/prod/{file1, file2, file3, file4}`
  <List of Directories>
 
-Table
------
 work
 dev
 learn
@@ -35,7 +33,7 @@ Users/apple/antino/work/file4
 Users/apple/antino/dev/file4
 Users/apple/antino/learn/file4
 Users/apple/antino/prod/file4
-----------------------------------
+
 
 To clear the command we use `clear`
 Create a blank empty file we use `touch devops.txt`
@@ -54,3 +52,7 @@ To find anything by keyword - find . -name “new_file.txt”
 Check with Process status - `ps` or `ps -e`
 To  Update anything and upgrade  - `sudo apt update` & `sudo apt upgrade`
  To give root access to any user - `su -`
+To exit and save in VI editor - `:wq`
+To change permission and directory - chmod u=rwx new_file.txt
+Chown - Command To change ownership of the file 
+Chmod - Command to change the permission and directories of the file
